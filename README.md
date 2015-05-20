@@ -1,8 +1,8 @@
-# slack-ipl
+# slack-xkcd
 
 ## Usage
 
-From any Slack channel, just type `/ipl`. Live scores will be shown on the same channel visible just to you.
+From any Slack channel, just type `/xkcd`. random xkcd comics will be shown on the same channel visible just to you.
 
 ## Integrate with your team
 
@@ -11,7 +11,7 @@ From any Slack channel, just type `/ipl`. Live scores will be shown on the same 
 3. Scroll all the way down to **DIY Integrations & Customizations section**.
 4. Click on **Add** next to **Slash Commands**.
   - Command: `/ipl`
-  - URL: `http://iplscores.herokuapp.com`
+  - URL: `http://slack-xkcd.herokuapp.com`
   - Method: `GET`
   - For the **Autocomplete help text**, check to show the command in autocomplete list.
-    - Description: `Stop Juggling between tabs, live scores now in Slack.`
+    - Description: `Stop Juggling between tabs, web comics now in Slack.`
