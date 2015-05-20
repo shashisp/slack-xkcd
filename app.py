@@ -1,5 +1,4 @@
 import os
-import xkcd
 from flask import Flask, request, Response, redirect
 
 app = Flask(__name__)
