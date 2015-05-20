@@ -7,7 +7,9 @@ app = Flask(__name__)
 @app.route('/', methods=['get'])
 def xkcd():
 	import xkcd
-	return xkcd.getRandomComic().link
+	comic = xkcd.getRandomComic().link
+	data = 'http://'+comic[-13:]
+	return data
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
